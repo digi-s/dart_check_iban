@@ -25,9 +25,10 @@ A package to check if an IBAN is valid.
 ## Usage
 
 ```dart
-  String validIban = 'FR7611315000011234567890138';
-  String invalidIban = 'FR5311315000011233567896765';
+    IbanChecker checker = IbanChecker();
+    String validIban = 'FR7611315000011234567890138';
+    String invalidIban = 'FR5311315000011233567896765';
 
-  print(checkIban(validIban)); // returns true
-  print(checkIban(invalidIban)); // returns false
+    print(checker.checkIban(validIban)); // returns true
+    print(checker.checkIban(invalidIban)); // returns false
 ```
