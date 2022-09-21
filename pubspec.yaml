@@ -1,6 +1,6 @@
 name: check_iban
 description: A package to check if an IBAN is valid.
-version: 1.0.0
+version: 1.0.1
 # homepage: https://www.example.com
 
 environment:
